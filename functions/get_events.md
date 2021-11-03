@@ -41,4 +41,4 @@ kosmorrolib.get_events(date(2020, 4, 4))
 
 ### See also
 
-- [`Event`](@/lib/doc/0.11/model/Event.md)
+- [`Event`](@/lib/doc/1.0/model/Event.md)

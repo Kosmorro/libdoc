@@ -23,4 +23,4 @@ class MoonPhaseType(Enum):
 
 ### See also
 
-- [`MoonPhase`](@/lib/doc/0.11/model/MoonPhase.md)
+- [`MoonPhase`](@/lib/doc/1.0/model/MoonPhase.md)

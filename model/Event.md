@@ -42,6 +42,8 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`get_events()`](@/lib/doc/0.11/functions/get_events.md)
-- [`Object`](@/lib/doc/0.11/model/Object.md)
-- [`EventType`](@/lib/doc/0.11/enums/EventType.md)
+- [`get_events()`](@/lib/doc/1.0/functions/get_events.md)
+- [`Object`](@/lib/doc/1.0/model/Object.md)
+- [`EventType`](@/lib/doc/1.0/enums/EventType.md)
+- [`SeasonType`](@/lib/doc/1.0/enums/SeasonType.md)
+- [`LunarEclipseType`](@/lib/doc/1.0/enums/LunarEclipseType.md)

@@ -15,10 +15,12 @@ class EventType(Enum):
     CONJUNCTION
     OCCULTATION
     MAXIMAL_ELONGATION
-    MOON_PERIGEE
-    MOON_APOGEE
+    PERIGEE
+    APOGEE
+    SEASON_CHANGE
+    LUNAR_ECLIPSE
 ```
 
 ### See also
 
-- [`Event`](@/lib/doc/0.11/model/Event.md)
+- [`Event`](@/lib/doc/1.0/model/Event.md)

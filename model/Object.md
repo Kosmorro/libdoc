@@ -4,10 +4,10 @@ description = "An astronomical object (a.k.a aster)"
 template = "doc/page.html"
 
 aliases = [
-    "/lib/doc/0.11/model/star",
-    "/lib/doc/0.11/model/planet",
-    "/lib/doc/0.11/model/dwarfplanet",
-    "/lib/doc/0.11/model/satellite"
+    "/lib/doc/1.0/model/star",
+    "/lib/doc/1.0/model/planet",
+    "/lib/doc/1.0/model/dwarfplanet",
+    "/lib/doc/1.0/model/satellite"
 ]
 
 [extra]
@@ -19,7 +19,7 @@ type = "class"
 ```python
 class Object:
     identifier: ObjectIdentifier,
-    skyfield_name: str,
+    skyfield_object: SkfPlanet,
     radius: float = None
 ```
 
@@ -38,7 +38,7 @@ Those classes have exactly the same properties and methods as the `Object` class
 
 
 - **`identifier`**: an unique identifier to know what object it is exactly (Mercury, Venus, etc.)
-- **`skyfield_name`**: the name of the corresponding object in Skyfield library - used internally
+- **`skyfield_object`**: the corresponding object in Skyfield library - used internally
 - **`radius`**: the object's radius. Used to detect some events, e.g. occultations
 
 ### Methods
@@ -61,7 +61,7 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`AsterEphemerides`](@/lib/doc/0.11/model/AsterEphemerides.md)
-- [`Event`](@/lib/doc/0.11/model/Event.md)
-- [`ObjectIdentifier`](@/lib/doc/0.11/enums/ObjectIdentifier.md)
-- [`ObjectType`](@/lib/doc/0.11/enums/ObjectType.md)
+- [`AsterEphemerides`](@/lib/doc/1.0/model/AsterEphemerides.md)
+- [`Event`](@/lib/doc/1.0/model/Event.md)
+- [`ObjectIdentifier`](@/lib/doc/1.0/enums/ObjectIdentifier.md)
+- [`ObjectType`](@/lib/doc/1.0/enums/ObjectType.md)
