@@ -19,4 +19,4 @@ class ObjectType(Enum):
 
 ### See also
 
-- [`Object`](@/lib/doc/1.0/model/Object.md)
+- [`Object`](@/lib/doc/1.1/model/Object.md)

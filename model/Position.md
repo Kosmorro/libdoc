@@ -39,4 +39,4 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`get_ephemerides()`](@/lib/doc/1.0/functions/get_ephemerides.md)
+- [`get_ephemerides()`](@/lib/doc/1.1/functions/get_ephemerides.md)
