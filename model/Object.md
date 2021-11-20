@@ -4,10 +4,10 @@ description = "An astronomical object (a.k.a aster)"
 template = "doc/page.html"
 
 aliases = [
-    "/lib/doc/1.0/model/star",
-    "/lib/doc/1.0/model/planet",
-    "/lib/doc/1.0/model/dwarfplanet",
-    "/lib/doc/1.0/model/satellite"
+    "/lib/doc/1.1/model/star",
+    "/lib/doc/1.1/model/planet",
+    "/lib/doc/1.1/model/dwarfplanet",
+    "/lib/doc/1.1/model/satellite"
 ]
 
 [extra]
@@ -61,7 +61,7 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`AsterEphemerides`](@/lib/doc/1.0/model/AsterEphemerides.md)
-- [`Event`](@/lib/doc/1.0/model/Event.md)
-- [`ObjectIdentifier`](@/lib/doc/1.0/enums/ObjectIdentifier.md)
-- [`ObjectType`](@/lib/doc/1.0/enums/ObjectType.md)
+- [`AsterEphemerides`](@/lib/doc/1.1/model/AsterEphemerides.md)
+- [`Event`](@/lib/doc/1.1/model/Event.md)
+- [`ObjectIdentifier`](@/lib/doc/1.1/enums/ObjectIdentifier.md)
+- [`ObjectType`](@/lib/doc/1.1/enums/ObjectType.md)

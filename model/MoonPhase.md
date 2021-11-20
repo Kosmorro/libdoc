@@ -36,5 +36,5 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`get_moon_phase()`](@/lib/doc/1.0/functions/get_moon_phase.md)
-- [`MoonPhaseType`](@/lib/doc/1.0/enums/MoonPhaseType.md)
+- [`get_moon_phase()`](@/lib/doc/1.1/functions/get_moon_phase.md)
+- [`MoonPhaseType`](@/lib/doc/1.1/enums/MoonPhaseType.md)

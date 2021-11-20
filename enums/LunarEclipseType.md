@@ -18,4 +18,4 @@ class LunarEclipseType(Enum):
 
 ### See also
 
-- [`Event`](@/lib/doc/1.0/model/Event.md)
+- [`Event`](@/lib/doc/1.1/model/Event.md)

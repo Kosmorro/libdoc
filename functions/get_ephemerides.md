@@ -45,5 +45,5 @@ kosmorrolib.get_ephemerides(pos, datetime.date(2021, 6, 9), timezone=1)
 
 ### See also
 
-- [`AsterEphemerides`](@/lib/doc/1.0/model/AsterEphemerides.md)
-- [`Position`](@/lib/doc/1.0/model/Position.md)
+- [`AsterEphemerides`](@/lib/doc/1.1/model/AsterEphemerides.md)
+- [`Position`](@/lib/doc/1.1/model/Position.md)

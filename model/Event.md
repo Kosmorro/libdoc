@@ -30,12 +30,12 @@ class Event:
   - **`APOGEE` and `PERIGEE`**:
     - `distance_km` (`float`): the distance of the object, in kilometers
   - **`LUNAR_ECLIPSE`**:
-    - `type` ([`LunarEclipseType`](@/lib/doc/1.0/enums/LunarEclipseType.md)): the identifier of the type of the eclipse
+    - `type` ([`LunarEclipseType`](@/lib/doc/1.1/enums/LunarEclipseType.md)): the identifier of the type of the eclipse
     - `maximum` (`datetime`): the time at which the lunar eclipse will be at its maximum
   - **`MAXIMAL_ELONGATION`**:
     - `deg` (`float`): the angle between the ground and the object
   - **`SEASON_CHANGE`**:
-    - `season` ([`SeasonType`](@/lib/doc/1.0/enums/SeasonType.md)): the identifier of the new season
+    - `season` ([`SeasonType`](@/lib/doc/1.1/enums/SeasonType.md)): the identifier of the new season
 
 ### Methods
 
@@ -57,8 +57,8 @@ Returns the object as a plain simple Python dictionnary.
 
 ### See also
 
-- [`get_events()`](@/lib/doc/1.0/functions/get_events.md)
-- [`Object`](@/lib/doc/1.0/model/Object.md)
-- [`EventType`](@/lib/doc/1.0/enums/EventType.md)
-- [`SeasonType`](@/lib/doc/1.0/enums/SeasonType.md)
-- [`LunarEclipseType`](@/lib/doc/1.0/enums/LunarEclipseType.md)
+- [`get_events()`](@/lib/doc/1.1/functions/get_events.md)
+- [`Object`](@/lib/doc/1.1/model/Object.md)
+- [`EventType`](@/lib/doc/1.1/enums/EventType.md)
+- [`SeasonType`](@/lib/doc/1.1/enums/SeasonType.md)
+- [`LunarEclipseType`](@/lib/doc/1.1/enums/LunarEclipseType.md)

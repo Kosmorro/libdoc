@@ -47,4 +47,4 @@ kosmorrolib.get_moon_phase(datetime.date.fromisoformat("2021-03-27"), timezone=2
 
 ### See also
 
-- [`MoonPhase`](@/lib/doc/1.0/model/MoonPhase.md)
+- [`MoonPhase`](@/lib/doc/1.1/model/MoonPhase.md)
