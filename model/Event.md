@@ -15,7 +15,7 @@ class Event:
     objects: [Object]
     start_time: datetime
     end_time: Union[datetime|None]
-    details: Union[string|None]
+    details: {str: any}
 ```
 
 ### Properties
@@ -24,7 +24,18 @@ class Event:
 - **`objects`**: the asters involved in the event
 - **`start_time`**: the time at which the event starts
 - **`end_time`**: the time at which the event ends (if `None`, then the event is punctual and has no duration)
-- **`details`**: the details about the event, if any
+- **`details`**: a dictionary that might contains details about the event
+  
+  Currently, the following event types have details:
+  - **`APOGEE` and `PERIGEE`**:
+    - `distance_km` (`float`): the distance of the object, in kilometers
+  - **`LUNAR_ECLIPSE`**:
+    - `type` ([`LunarEclipseType`](@/lib/doc/1.0/enums/LunarEclipseType.md)): the identifier of the type of the eclipse
+    - `maximum` (`datetime`): the time at which the lunar eclipse will be at its maximum
+  - **`MAXIMAL_ELONGATION`**:
+    - `deg` (`float`): the angle between the ground and the object
+  - **`SEASON_CHANGE`**:
+    - `season` ([`SeasonType`](@/lib/doc/1.0/enums/SeasonType.md)): the identifier of the new season
 
 ### Methods
 
