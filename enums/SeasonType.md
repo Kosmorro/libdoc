@@ -13,7 +13,7 @@ type = "enumeration"
 class SeasonType(Enum):
     MARCH_EQUINOX
     JUNE_SOLSTICE
-    SEPTEMBER_EQUIN 2
+    SEPTEMBER_EQUINOX
     DECEMBER_SOLSTICE
 ```
 
