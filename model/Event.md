@@ -41,6 +41,10 @@ class Event:
 
 #### `get_description(self, show_details: bool = True) -> str:`
 
+> **⚠️ Deprecated**
+>
+> This function will be removed in version 2.0. If you are using it, it should be replaced with your own implementation.
+
 Returns a textual description of the event, ready to be displayed.
 
 ##### Arguments:
