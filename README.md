@@ -21,6 +21,7 @@ events = kosmorrolib.get_events()
 - [`get_ephemerides()`](@/lib/doc/1.1/functions/get_ephemerides.md) - compute and return the ephemerides
 - [`get_events()`](@/lib/doc/1.1/functions/get_events.md) - calculate and return a list of events
 - [`get_moon_phase()`](@/lib/doc/1.1/functions/get_moon_phase.md) - calculate and return the moon phase
+- [`search_events()`](@/lib/doc/1.1/functions/search_events.md) - return list of events that occur in a given time range
 
 ## Model
 
