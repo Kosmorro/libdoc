@@ -20,7 +20,7 @@ class MoonPhase:
 
 ### Properties
 
-- **`phase_type`**: one of the values of the EventType enumeration
+- **`phase_type`**: one of the values of the MoonPhaseType enumeration
 - **`time`**: the time at which the Moon phase happens (only set for New Moon, First Quarter, Full Moon and Last Quarter)
 - **`next_phase_date`**: the time when the next phase happens
 
